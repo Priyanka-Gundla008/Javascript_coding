@@ -16,3 +16,15 @@ console.log("All Users:", allUsers);
 //   { id: 4, name: 'Arjun', age: 30, city: 'Hyderabad', salary: 90000, department: 'Backend', isActive: true },
 //   { id: 5, name: 'Kiran', age: 26, city: 'Pune', salary: 70000, department: 'Frontend', isActive: false }
 // ]
+
+//-----------------------------------------------------------------------------------------------------------------------------
+
+//Count total number of users
+
+const totalUsers = () => {
+    return users.length;
+};
+
+console.log("Total Users:", totalUsers());
+
+//output: Total Users: 5
