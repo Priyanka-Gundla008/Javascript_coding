@@ -19,10 +19,10 @@ BASICS:
 6. Get all the users details whose city is Hyderabad.
 7. Get all the users details of a specified age.
 
-Department:
+   Department:
 
-8. Get department names of all users .
-9. Get unique department names of all users .
+8. Get department names of all users.
+9. Get unique department names of all users.
 10. Get users details by department and city.
 
 11. Get user details by id.
