@@ -25,3 +25,8 @@ BASICS:
 
 11. Get user details by id.
 12. Get users details whose salary is greater than 70000.
+
+13. Calculate total salary of all employees.
+14. Calculate Average Salary of all employees.
+15. Find User with highest salary.
+16. Find User with Lowest Salary.
