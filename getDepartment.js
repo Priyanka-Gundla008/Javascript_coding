@@ -51,3 +51,19 @@ console.log("Users from Frontend department and Hyderabad city:", getUsersDetail
 //output: Users from Frontend department and Hyderabad city: [
 //   { id: 1, name: 'Priyanka', age: 24, city: 'Hyderabad', salary: 65000, department: 'Frontend', isActive: true }
 // ]
+
+//-----------------------------------------------------------------------------------------------
+
+//Count employees in each department
+
+const countEmployeesInEachDepartment = () => {
+    const count = {};
+    for (let user in users){
+        count[users[user].department] = (count[users[user].department] || 0) + 1;
+    }
+    return count;
+}
+
+console.log("Employees in each department:", countEmployeesInEachDepartment());
+
+//output: Employees in each department: { 'Frontend': 3, 'Backend': 2, 'QA': 1 }

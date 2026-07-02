@@ -9,8 +9,6 @@ node getAllUsers.js
 
 ## QUESTIONS:
 
-BASICS:
-
 1. Get all Users details from the Array of Objects.
 2. Count total number of users.
 3. Get all the users names from the users object and return them in an array.
@@ -30,3 +28,17 @@ BASICS:
 14. Calculate Average Salary of all employees.
 15. Find User with highest salary.
 16. Find User with Lowest Salary.
+17. Find user with second highest salary.
+18. Find user with second lowest salary.
+19. Find duplicate cities.
+20. Count users in each city.
+21. Count employees in each department.
+22. Check if every user is active.
+23. Check if at least one user is active.
+24. Find users whose names start with "P".
+25. Find users whose names contain "a".
+26. Create an array of user names in uppercase.
+27. Calculate total salary department-wise.
+28. Find employees earning above average salary.
+29. Return names of active Frontend developers.
+30. Convert users array into an object using id as key.

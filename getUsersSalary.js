@@ -99,3 +99,44 @@ console.log("User with lowest salary:", lowestSalary());
 //output: User with lowest salary:
 // { id: 1, name: 'Priyanka', age: 24, city: 'Hyderabad', salary: 65000, department: 'Frontend', isActive: true }
 
+//-------------------------------------------------------------------------------------------------------------------------
+
+//Find User with second highest salary
+
+const secondHighestSalary = () => {
+    const salary = [];
+    for (let user in users){
+        salary.push(users[user].salary);
+    }
+    const sortSalary = salary.sort((a,b)=>b-a);
+    const secondHighestSalary = sortSalary[1];
+    for (let user in users){
+        if(users[user].salary === secondHighestSalary){
+            return users[user];
+        } 
+    }
+}
+
+console.log("User with second highest salary:", secondHighestSalary());
+
+//output: User with second highest salary:
+// { id: 3, name: 'Sneha', age: 28, city: 'Bangalore', salary: 80000, department: 'Frontend', isActive: false }
+
+//-------------------------------------------------------------------------------------------------------------------------
+
+//Find User with second lowest salary
+
+const secondLowestSalary = () => {
+    const salary = [];
+    for (let user in users){
+        salary.push(users[user].salary);
+    }
+    const sortSalary = salary.sort((a,b)=>a-b);
+    const secondLowestSalary = sortSalary[1];
+    for (let user in users){
+        if(users[user].salary === secondLowestSalary){
+            return users[user];
+        }
+    }
+}
+console.log("User with second lowest salary:", secondLowestSalary());
